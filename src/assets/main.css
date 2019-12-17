@@ -1,0 +1,123 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td ,textarea,input { margin:0; padding:0;  box-sizing: border-box;line-height:1}
+.detail .news-cont .detailLft .content p{line-height: 40px!important;}
+.about-cont .cont .content p{line-height: 34px!important;}
+address,cite,dfn,em,var, i {font-style:normal;}
+body {font-size: 18px;  font-family:'Microsoft Yahei','simsun','arial','tahoma';  color: #666; background: #f4f4f4}
+table { border-collapse:collapse; border-spacing:0; }
+h1, h2, h3, h4, h5, h6, th { font-size: 100%; font-weight: normal; }
+button,input,select,textarea{font-size:100%;}
+input{border:1px solid #ddd}
+button{cursor: pointer!important;}
+fieldset,img{border:0;max-width:100%}
+a { text-decoration: none; color: #666; background: none ;max-width:100%;max-height:100%}
+a:hover{cursor: pointer}
+ul, ol ,li{ list-style: none; }
+/*ul{overflow: hidden}*/
+:focus{ outline:none;}
+.clearfix{overflow: hidden }
+.clear{clear: both;}
+.fl{ float: left; }
+.fr{float: right;}
+.hide{display: none}
+.auto{margin:0 auto}
+.txt-center{text-align: center}
+.no-border{border:1px solid #fff!important;}
+.error{position:absolute;display:inline-block;right:20px;top:10px;width:20px;height: 20px;background: #9c221f;color:#fff;border-radius: 50%;line-height: 20px;text-align: center}
+label{position: relative}
+label.short{width:190px!important;position: relative}
+label.shortInp{width:294px!important;position: relative}
+.center-tit{line-height: 50px;background: #999;color:#fff;padding-left:25px;}
+.center-right{border:1px solid #ddd;border-radius: 3px;}
+.center-right-cont{padding:0 40px 40px}
+.content_main{padding-top:88px;min-height: 616px;}
+.wrap{width:1200px;margin:0 auto!important;  }
+.easy_style21 {display: inline-block;text-align: right;}
+.font-red{color:#FF2626}
+.font-green{color:#1ba34e}
+.btn{font-size: 16px;height:40px;line-height: 40px;display: block;width:200px;background: #9c221f;text-align: center;border-radius: 5px;color:#fff;cursor: pointer}
+.list-table{    width: 100%;font-size: 14px;line-height: 40px;text-align: center;}
+.list_table th,.list_table td{text-align: center}
+table{text-align: center}
+.color-green {color: #00B259!important;}
+.bg-green {background: #00B259!important;}
+.bg-gray {background: #999!important;}
+.color-red {color: #9c221f!important;}
+.bg-red {background: #9c221f!important;}
+.color-org{color:#ff7f00!important;}
+.color-w{color:#fff!important;}
+.color-yellow {color: #f6b220!important;}
+.color-orange {color: #FF8000;}
+.btn-orange {width: 100%;height: 44px;background: #9c221f;display: block;color: #fff;}
+.border{border:1px solid #eee;}
+.font-bold{font-weight: bold}
+ .hide{display: none}
+ .btnGroup{overflow: hidden}
+ .zhi{cursor: pointer}
+ .pointer{cursor: pointer}
+.recharge-tip{line-height: 30px;font-size: 16px;}
+ .btnSmallBlue{cursor: pointer;margin: 0 auto;line-height: 25px;display: block;background: #3182ad;color: #fff;width: 50px;height: 25px;line-height: 25px;text-align: center;border-radius: 5px;}
+/* 谷歌 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {cursor: pointer;-webkit-appearance: button;border:0}
+/* 火狐 */
+input[type="number"]{
+  -moz-appearance:textfield;
+}
+input::-ms-clear{display:none;}/*//去掉X*/ input::-ms-reveal{display:none;}/*//去掉眼睛*/
+input:-webkit-autofill {
+  -webkit-text-fill-color: #eee !important;/*浏览器记住密码的字的颜色*/
+  transition: background-color 5000s ease-in-out 0s;/*通过延时渲染背景色变相去除背景颜色*/
+  caret-color: #666;/*光标颜色*/
+  opacity: 0.4;
+}
+input:focus { outline: none; }/*外边框线去除*/
+.el-input{font-size: 16px!important;vertical-align: top;}
+.el-input__inner{border:0!important;padding:0!important;padding-left:16px!important;width:auto;background: none!important;
+  color: #666666!important;line-height: 1!important;}
+.vertify-short{border:1px solid #eee}
+
+/*//去掉火狐红色阴影*/
+  input,
+  textarea,
+  select {
+    outline: none !important;
+    -moz-outline: none !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+  }
+
+.el-message-box{min-width:260px!important;background: #f7f6f6;width:auto!important;max-width:315px;}
+.el-message-box__header{height:34px;line-height:34px;background: #f24856;padding:0!important;}
+.el-message-box__title{line-height: 34px;color:#fff;font-size: 16px;text-align: center}
+.el-button--small{padding:0;width:90px;height: 26px;line-height: 26px;background: #f24856;color:#fff;margin:0 auto}
+.el-message-box__message p{font-size: 16px;    text-align: left!important;}
+.el-message-box__btns{text-align: center!important;}
+.el-button--primary{background: #f24856!important;border:0}
+.el-message-box__headerbtn .el-message-box__close{color:#fff}
+.el-message-box__title{color:#fff!important;line-height: 34px!important;height:34px;}
+.el-message-box__headerbtn .el-message-box__close{color:#fff!important;}
+.el-message-box__headerbtn{top:10px!important;}
+.el-range-editor .el-range-input{border:1px solid #eee!important;}
+.el-date-editor .el-range-separator{width:10%!important;}
+.el-input--prefix .el-input__inner{padding-left:30px!important;}
+/*.page-enter-active, .page-leave-active {
+  transition: opacity .5s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+}
+.about-enter-active, .about-leave-active {
+  transition: left .10s;
+}
+.about-enter, .about-leave-to {
+  left: -600px;
+}*/
+.last{margin-right:0!important;}
+input::-webkit-input-placeholder{color:#666!important;}
